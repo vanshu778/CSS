@@ -1,3 +1,22 @@
 h1{
     color: #ff3368
 }
+
+.para{
+    color:green
+}
+
+#btn{
+    background-color: #ff3368;
+    color: white;
+}
+/* specificity: id > element class */
+#btn:hover{
+    background-color: brown;
+    color: azure;
+}
+
+h1:hover{
+    background-color: black;
+    color: azure;
+}
