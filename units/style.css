@@ -32,26 +32,93 @@ Using rem ensures that the size is consistent throughout the entire document, ma
 /** ---------------------------------------- --> */
 
 body {
-    background-color: hsl(0, 0%, 94%);
-  }
-  
-  /*? for Pixels  */
-  
-  /*? for Percentages  100% = 16px  */
-  /* 1px = 6.25% */
-  
-  /*? for 1 em  = 16px */
-  
-  /*? for 1 rem = we can specify the font size of our will */
-  /* we need 1rem = 10px, it makes our life easy  */
-  
-  /** ------------------------------------- -->
-  /**  INTERVIEW QUESTIONS
-  /** ---------------------------------------- -->
-  
-  /*? 1: What is the main difference between em and rem units in CSS? */
-  
-  /*? 2: How does using rem units in your CSS benefit a responsive web design?  ⭐⭐⭐ */
-  
-  /*? 3: Can you explain how the font-size property in em units works when nested within parent elements with different font sizes? */
-  
+  background-color: hsl(0, 0%, 94%);
+}
+
+/*? for Pixels  */
+
+/* h1 {
+  font-size: 54px;
+  color: purple;
+} */
+
+/* p {
+  font-size: 36px;
+}
+
+li {
+  font-size: 44px;
+} */
+
+/*? for Percentages  100% = 16px  */
+/* 1px = 6.25% */
+
+/* h1 {
+  font-size: 337.5%;
+}
+
+p {
+  font-size: 225%;
+}
+
+li {
+  font-size: 275%;
+} */
+
+/*? for 1 em  = 16px */
+
+h1 {
+  font-size: 3.374em;
+}
+
+p {
+  font-size: 2.25em;
+}
+
+.parent {
+  font-size: 10px;
+}
+
+/* 1em = 10px */
+
+li {
+  font-size: 2.75em;
+}
+
+/*? for 1 rem = we can specify the font size of our will */
+/* we need 1rem = 10px, it makes our life easy  */
+
+/* 16px = 100%;
+1px = 6.25%;
+10px = 62.5% */
+
+html {
+  font-size: 62.5%;
+}
+
+/* 1rem = 10px ; */
+h1 {
+  font-size: 5.4rem;
+}
+
+p {
+  font-size: 3.6rem;
+}
+
+/* .parent {
+  font-size: 20px;
+} */
+
+li {
+  font-size: 4.4rem;
+}
+
+/** ------------------------------------- -->
+/**  INTERVIEW QUESTIONS
+/** ---------------------------------------- -->
+
+/*? 1: What is the main difference between em and rem units in CSS? */
+
+/*? 2: How does using rem units in your CSS benefit a responsive web design?  ⭐⭐⭐ */
+
+/*? 3: Can you explain how the font-size property in em units works when nested within parent elements with different font sizes? */
