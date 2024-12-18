@@ -71,14 +71,15 @@ Be cautious with excessive use of filters, as they can significantly alter the a
     -o-border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
       rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-    filter: invert(0.7);
+    /* filter: invert(0.7);
     filter:grayscale();
     filter: blur();
     filter: contrast();
     filter: brightness();
     filter:opacity();
-    filter:saturate()
-   
+    filter:saturate(); */
+
+    filter:blur(3px) grayscale(0.5) contrast(1.2);
   }
   
   /** ------------------------------------- -->
