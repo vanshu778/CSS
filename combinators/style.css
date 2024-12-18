@@ -95,4 +95,23 @@
   }
   
   /** --------------------------------- */
-  
+    .content-1 ul p{
+        font-weight: 900;
+        color: red;
+   }
+
+   .content-1 ul li{
+     color:green;
+   }
+
+   .content-1 > ul > li{
+    color: brown;
+   }
+
+   .content-1 ul p + li{
+    color:pink;
+   }
+
+   .content-1 ul p ~ li{
+    color:burlywood;
+   }
