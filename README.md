@@ -96,11 +96,11 @@ This repository is a comprehensive guide to CSS, covering foundational concepts 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/vanshu778/css-exploration.git
+   git clone https://github.com/vanshu778/css
    ```
 2. Navigate to the folder:
    ```bash
-   cd css-exploration
+   cd css
    ```
 3. Open the HTML file for the desired topic in your browser.
 
