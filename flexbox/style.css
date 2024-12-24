@@ -12,7 +12,7 @@ To create a flexbox layout, you need a flex container. Apply display: flex; to t
   display: flex;
 } */
 
-/*? 2: Flex Items:
+/*? 2: Flex Items:    
 Elements inside the flex container are called flex items.
 Flex items can be aligned and distributed along the main axis (horizontal or vertical). */
 
