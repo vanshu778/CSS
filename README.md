@@ -117,6 +117,4 @@ Contributions are welcome! If you have suggestions or additional examples, feel 
 For queries or feedback, feel free to reach out via:
 - [GitHub](https://github.com/vanshu778)
 - [LinkedIn](https://linkedin.com/in/vanshu778)
-```
 
-This README includes all topics and provides a detailed structure for your repository. You can copy and save this content as `README.md`. Let me know if you’d like any adjustments!
